@@ -26,7 +26,7 @@ const UsersList = () => {
 
   return (
     <>
-      <h1>Display users list</h1>
+      <h1>Users List</h1>
       <div className='usersList'>
         {users && users.map((user) => <UserDetail {...user} />)}
       </div>
